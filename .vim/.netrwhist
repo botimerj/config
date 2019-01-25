@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/afs/eecs.umich.edu/vlsisp/projects/CHIPS/workspace/Chester/chip/proto/openrisc/sim'
+let g:netrw_dirhist_2='/afs/eecs.umich.edu/vlsisp/projects/CHIPS/workspace/JieFang/SNAP/hw/rtl'
+let g:netrw_dirhist_3='/afs/eecs.umich.edu/vlsisp/projects/CHIPS/workspace/Jacob/aib/aib_system/tech/tsmc16ffc/lib'
+let g:netrw_dirhist_4='/afs/eecs.umich.edu/vlsisp/projects/CHIPS/workspace/Jacob/aib/aib_system/rtl/aib_interface'
+let g:netrw_dirhist_5='/afs/eecs.umich.edu/vlsisp/projects/CHIPS/workspace/Jacob/aib/aib_system/sim/filelist'
+let g:netrw_dirhist_6='/afs/eecs.umich.edu/vlsisp/projects/CHIPS/workspace/Jacob/aib/aib_system/rtl/aib_interface'
+let g:netrw_dirhist_7='/afs/eecs.umich.edu/vlsisp/projects/CHIPS/workspace/Jacob/aib/aib_system/rtl'
+let g:netrw_dirhist_8='/afs/eecs.umich.edu/vlsisp/projects/CHIPS/workspace/Jacob/aib/aib_system/sim/filelist'
