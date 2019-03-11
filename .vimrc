@@ -8,6 +8,7 @@ set wildmenu
 set expandtab
 set tabstop=4
 set shiftwidth=4
+set ttymouse=xterm2
 set mouse=a
 
 " Use <C-L> to clear the highlighting of :set hlsearch.
