@@ -8,8 +8,12 @@ set wildmenu
 set expandtab
 set tabstop=4
 set shiftwidth=4
-set ttymouse=xterm2
+set nowrap
+set ttymouse=sgr
 set mouse=a
+set hlsearch
+set number
+set colorcolumn=80
 
 " Use <C-L> to clear the highlighting of :set hlsearch.
 if maparg('<C-L>', 'n') ==# ''
@@ -26,14 +30,13 @@ set confirm
 :nnoremap <F5> :buffers<CR>:buffer<Space>
 
 " Folds
-augroup AutoSaveFolds
-    autocmd!
-    autocmd BufWinLeave * mkview
-    autocmd BufwinEnter * silent loadview
-augroup END
+" augroup AutoSaveFolds
+"     autocmd!
+"     autocmd BufWinLeave * mkview
+"     autocmd BufwinEnter * silent loadview
+" augroup END
 set foldmethod=syntax
 
-:color desert
 set visualbell
 set t_vb=
 
@@ -44,4 +47,14 @@ syntax on
 filetype plugin indent on
 
 " NERDTree
-map <C-n> :NERDTreeToggle<CR>
+map <C-m> :NERDTreeToggle<CR>
+
+" Python settings
+au BufReadPost,BufNewFile *.py setlocal foldmethod=indent foldignore=
+
+" Color stuff
+"colorscheme darkblue
+set term=screen-256color
+set t_ut=
+set background=dark
+colorscheme solarized8_flat
